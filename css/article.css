@@ -1,0 +1,55 @@
+:root{
+    --barra--:#54C6E3;
+    --barraFundo--: #ccc;
+    --azul--: #54C6E3;
+    --fundo--: #d9e9ed;
+    --fundotexto--: #f1f1f1;
+    --sombra--: #919191;
+}
+
+nav{
+    margin: 20px;
+    flex: 70%;
+}
+
+article{
+    background-color: var(--fundotexto--);
+    box-shadow: 0 0px 15px  var(--sombra--);
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+article .inicioArticle{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 0 10px;
+}
+
+article >.inicioArticle > .iconArticle{
+    display: flex;
+    align-items: center;
+}
+article >.inicioArticle > .titleArticle{
+    display: flex;
+    align-items: center;
+
+}
+
+article >.inicioArticle > .titleArticle > h1{
+    margin-left: 10px;
+}
+
+article > .Experience{
+    margin: 10px;
+}
+
+article > .Experience > .date{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+article > .Experience > .date > .textIconProfission > h3{
+    margin-left: 10px;
+}
