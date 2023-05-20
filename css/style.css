@@ -9,18 +9,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 main{
     margin: auto;
     max-width: 80%;
     background-color: var(--fundo--);
     box-shadow: 0 0px 15px  var(--sombra--);
-
+    display:grid;
+    grid-template-rows: 2;
+    height: 100%;
 }
 
 .principal{
     display: flex;
+    height: 100%;
+
 }
 
 @media (max-width: 680px){
