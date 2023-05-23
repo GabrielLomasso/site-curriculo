@@ -12,7 +12,6 @@ aside{
     margin: 20px;
     flex: 30%;
     box-shadow: 0 0px 15px  var(--sombra--);
-    height:fit-content;
 }
 
 aside > .foto{
